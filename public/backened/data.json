@@ -1,0 +1,28 @@
+{
+  "Students": [
+    {
+      "id": "2997",
+      "name": "puppy",
+      "email": "prabhase67@gmail.com",
+      "adress": "vjhghguygh",
+      "number": "01234567890",
+      "petName": "cat"
+    }
+  ],
+  "Form": [
+    {
+      "id": "bf7a",
+      "name": "manasa",
+      "email": "pupp@gmail.com",
+      "adress": "dghkjfxuyuyu",
+      "number": "01234567890",
+      "pet": "asiya"
+    },
+    {
+      "id": "42e8",
+      "name": "manasaa",
+      "email": "manasa@gmail.com",
+      "password": "123"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+.image {
+  background-image: url(images/p1.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  background-attachment: fixed;
+
+
+  background-size: cover;
+
+}
+.card-img{
+  height: 45px;
+  width: 90px;
+}
+
+a{
+  text-decoration: none;
+
+}
+ .ra{
+ 
+   background-color: rgb(173, 122, 95); 
+} 
+.rav{
+  position: fixed;
+}
+
+/* home page */
+.homepage{
+   /* background-color: rgb(248, 195, 175);  */
+   height: 100vh; 
+   width: 100vw;
+   position: fixed;
+    /* background: url(images/girl.jpg);
+     */
+   background-repeat: no-repeat;
+   background-size: cover; 
+   background-image: linear-gradient(rgba(65, 48, 56, 0.9),rgba(43, 2, 52, 0.5)),url(images/girl.jpg);
+
+}
+/* home page div */
+ .home{
+  position: fixed;
+  width: 100vw;
+} 
+
+
+/* home page responsiveness  */
+@media (max-width: 768px) {
+  /* Adjust margins and padding for smaller screens */
+  .homepage {
+    padding: 20px;
+  }
+  
+  .homepage h3 {
+    font-size: 24px;
+
+  }
+
+  .homepage p {
+    font-size: 14px;
+  }
+
+  .homepage img {
+    display: none; /* Hide image on smaller screens */
+    
+  }
+}
+
+ @media (min-width: 768px) {
+  .homepage h3 {
+    font-size: 36px;
+    color: blueviolet;
+  }
+
+  .homepage p {
+    font-size: 16px;
+  }
+} 
+
+
+
+
+.body{
+   background: url(images/homee.avif); 
+  background-size: cover;
+  height: 100vh;
+}
+
+/* booking form */
+
+.form{
+  position: fixed;
+  width: 100vw;
+
+}
+/* carousel page */
+.carousel{
+  position: fixed;
+  width: 100vw;
+/* background-color: rgb(238, 213, 137) ; */
+ 
+
+}
+.login{
+   background-image: url(images/back3.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+
+}
+.page{
+  background-image: linear-gradient(rgba(62, 60, 61, 0.9),rgba(189, 185, 243, 0.803)); 
+}
+
